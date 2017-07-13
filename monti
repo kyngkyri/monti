@@ -1,0 +1,8 @@
+var mashArray = ["The Great Maze","KD's L","Dark Matter", "Magnolia"]
+var firstQuestion = ["1","2","3","4"]
+var secondQuestion = ["Link","Mario"," Kid Icarus","Lucario"]
+var prompt = require('prompt-sync')();
+var q1 = prompt('How many times will you strike? ' + [firstQuestion]);
+var q2 = prompt('Who Will you choose to fight? ' + [secondQuestion]);
+var q3 = prompt('Which stage do you want to select? ' + [mashArray]);
+console.log("You fought " + q2 + " in the " + q3 + " and hit them " + q1 + " times!"); 
