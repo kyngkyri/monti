@@ -1,0 +1,2 @@
+var pokemonRoster = [["Bulbasaur", "grass/posion" 45, 49, 49, "not legend"],["Charmander", "fire", 39, 52, 43, "not legend"], ["Squirtle", "water", 44, 48, 65, "not legend"], ["Jigglypuff", "fairy/normal", 115, 45, 20, "not legend"], ["Raichu", "electric", 60, 90, 55, "legend"], ["Machamp", "fighting", 90, 130, 80, "legend"]]
+for 
