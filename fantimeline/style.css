@@ -1,0 +1,21 @@
+body {
+    margin: 20px;
+    font-family: Arial;
+    color: green;
+}
+h1 {
+    color: white;
+}
+p {
+    font-size: 18px;
+}
+html {
+    background-color: black;
+}
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    border: 2px solid white
+}
