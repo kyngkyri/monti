@@ -1,0 +1,14 @@
+body {
+    background-color: red;
+}
+
+
+img {
+    width: 100%
+}
+
+@media (max-width: 110px) {
+    body {
+        background-color:blue;
+    }
+}

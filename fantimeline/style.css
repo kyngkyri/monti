@@ -1,7 +1,7 @@
 body {
     margin: 20px;
     font-family: Arial;
-    color: green;
+    color: black;
 }
 h1 {
     color: white;
@@ -18,4 +18,15 @@ img{
     margin-left: auto;
     border-radius: 20px;
     border: 2px solid white
+}
+iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    border: 2px red;
+}
+
+#about {
+    background-color: red;
 }
