@@ -1,21 +1,39 @@
 <!DOCTYPE html>
     <html>
         <head>
+            <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+            <script>
+                // Initialize Firebase
+                var config = {
+                    apiKey: "AIzaSyD3Q4cQVY7830BhI1sShLlSYhamurE_jMQ",
+                    authDomain: "rock-paper-scissors-bd112.firebaseapp.com",
+                    databaseURL: "https://rock-paper-scissors-bd112.firebaseio.com",
+                    projectId: "rock-paper-scissors-bd112",
+                    storageBucket: "",
+                    messagingSenderId: "133352940298"
+                };
+                firebase.initializeApp(config);
+            </script>
+            <link rel="icon" href="http://pad2.whstatic.com/images/thumb/6/6e/Play-Rock%2C-Paper%2C-Scissors-Step-4-Version-2.jpg/aid42597-v4-728px-Play-Rock%2C-Paper%2C-Scissors-Step-4-Version-2.jpg">
             <title> Rock, Paper, Scissors </title>
             <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
             <script src = "main.js"></script>
             <link href = "style.css" rel = "stylesheet">
         </head>
         <body>
-            <h1><center> WELCOME TO YOUR AVERAGE GAME OF ROCK, PAPER, SCISSORS </center></h1>
-            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <h1><center> WELCOME TO YOUR AVERAGE GAME OF ROCK, PAPER, AND SCISSORS </center></h1>
+            <center><img src = "https://media.giphy.com/media/zrYgRi8JrMeC4/giphy.gif"></center>
                 <center>
-                <button onclick = 'rock()'>Rock</button>
-                <button onclick = 'paper()'> Paper </button>
-                <button onclick = 'scissors()'> Scissors </button>
+                <button class = "test" onclick = 'rock()'>Rock</button>
+                <button class = "test" onclick = 'paper()'> Paper </button>
+                <button class = "test" onclick = 'scissors()'> Scissors </button>
                 </center>
+                <br>
+                <div><center><p> Name : <p id = "NAME"></p> </p></center>
+                </br>
+                <br>
+                <div><center><p> Score: <span id="span1"></span></p></center></div>
+                </br>
+                <center><h3> Leader Board </h3> <div id="pastscores"> </div></center>
         </body>
     </html>

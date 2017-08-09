@@ -29,5 +29,27 @@ button {
 }
 
 h1 {
-    color: gold;
+    color: gold
+}
+
+.test{
+    height:60px;
+    width:120px;
+}
+
+p{
+    font-size: 24px;
+    display: inline;
+}
+
+#NAME {
+    display: inline
+}
+
+h3{
+    font-size: 24px;
+}
+
+#pastscores {
+    font-size: 24px;
 }
